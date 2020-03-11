@@ -6,7 +6,6 @@
 <Project>
   <ItemGroup>
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly.Build" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Build\src\Microsoft.AspNetCore.Components.WebAssembly.Build.csproj"  />
-    <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly.DebugProxy" ProjectPath="$(RepoRoot)src\Components\WebAssembly\DebugProxy\src\Microsoft.AspNetCore.Components.WebAssembly.DebugProxy.csproj"  />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Blazor.HttpClient" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Http\src\Microsoft.AspNetCore.Blazor.HttpClient.csproj"  />
     <ProjectReferenceProvider Include="WebAssembly.JSInterop" ProjectPath="$(RepoRoot)src\Components\WebAssembly\JSInterop\src\WebAssembly.JSInterop.csproj"  />
     <ProjectReferenceProvider Include="Microsoft.AspNetCore.Components.WebAssembly.Server" ProjectPath="$(RepoRoot)src\Components\WebAssembly\Server\src\Microsoft.AspNetCore.Components.WebAssembly.Server.csproj"  />
